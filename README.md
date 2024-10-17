@@ -57,4 +57,16 @@ Exploratory Data Analysis to find insights from the dataset, mostly using variou
 <p align="justify">The confusion matrix shows that the model, guesses correctly most of the times. However, there are still spaces for improvement. For example, a different hyperparameter tuning might bring better results, due to time and computing power limitation, the hyperparameter tuning method that is used in this notebook is randomized search.
 </p>
 
+### Conclusion 
+- Extreme Gradient Boosting algorithm shows a realiable result, since the F1 score is above **90%**
+- Hyperparameter aspect of the model can be tuned further given extra computing power and time.
 
+### Business Recommendations
+- Integrate the model into healthcare systems for early detection and intervention.
+- Further optimize the model by including additional features, such as lifestyle data or environmental factors.
+
+### Skills utilized in this project
+- Data Preprocessing: Imputation, encoding, unifying variable and scaling.
+- Machine Learning: Building and evaluating Classification Models such as Extreme Gradient Boosting, RandomForest, CatBoost.
+- Hyperparameter Tuning: Using Randomized Search to search the best hyperparameter and apply it to the classifier.
+- Data Analysis: Correlation between variables and target, to find insights on how each variable affects the prediction of a classifier.
