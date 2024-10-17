@@ -44,5 +44,17 @@ Exploratory Data Analysis to find insights from the dataset, mostly using variou
 
 ## Final Result 
 
+### F1 Score, Precision, and Recall value
+![Scores1](Imgs/f1_prec_rec.png)
+<p align="justify">High Precision and Recall score indicates that our model accurately makes correct prediction for every classes
+</p>
+
+### ROC_AUC Score
+![Scores2](Imgs/ROC_AUC.png)
+
+### Confusion Matrix
+![Scores3](Imgs/conf_mat.png)
+<p align="justify">The confusion matrix shows that the model, guesses correctly most of the times. However, there are still spaces for improvement. For example, a different hyperparameter tuning might bring better results, due to time and computing power limitation, the hyperparameter tuning method that is used in this notebook is randomized search.
+</p>
 
 
