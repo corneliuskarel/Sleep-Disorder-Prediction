@@ -35,8 +35,14 @@ Exploratory Data Analysis to find insights from the dataset, mostly using variou
 </p>
 
 ## Methodologies and Tuning
+- **Handle Missing Values**: Imputation techniques were applied to fill in missing values for target columns.
+- **Unifying categories** : in "BMI Category" column, 'Normal Weight' and 'Normal' categories are unified, since it has the same meaning. 
+- **Encoding Categorical(Ordinal & Nominal) Variables**: One-Hot Encoding for nominal features and Manually encoding the ordinal features using map function with custom dictionaries, and mean encoder for the target variable.
+- **Cross Validation**: Use cross validating technique to find the best machine learning model and deciding whether it is better to use scaled or unscaled data.
+- **Feature Selection** : Use correlation matrix and univariate model performance, turns out every features has atleast 60% accuracy level, every features will be used as predicting variables.
+- **Hyperparameter Tuning** : Use randomized search for hyperparameter tuning and gets a better ROC AUC score. 
 
-
+## Final Result 
 
 
 
