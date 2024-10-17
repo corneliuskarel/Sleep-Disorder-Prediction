@@ -6,7 +6,7 @@ Kaggle Notebook Source : https://www.kaggle.com/code/corneliuskarel/sleep-disord
 </p>
 
 ## Exploratory Data Analysis (EDA)
-Exploratory Data Analysis to find insights from the dataset, mostly using various visualization techniques and libraries, this component will be divided into 4 parts.
+Exploratory Data Analysis to find insights from the dataset, using various visualization techniques and libraries, this component will be divided into 4 parts.
 
 ### A. Correlation between Occupation and Stress Level
 ![Bar Chart](Imgs/OccupationVsStressLevel.png)
