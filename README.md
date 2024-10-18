@@ -1,4 +1,4 @@
-# SleepDisorderPrediction
+# Sleep Disorder Prediction
 Kaggle Notebook Source : https://www.kaggle.com/code/corneliuskarel/sleep-disorder-prediction-96-25-roc-auc-score
 
 ## Description
