@@ -35,12 +35,18 @@ Exploratory Data Analysis to find insights from the dataset, using various visua
 </p>
 
 ## Methodologies and Tuning
-- **Handle Missing Values**: Imputation techniques were applied to fill in missing values for target columns.
-- **Unifying categories** : in "BMI Category" column, 'Normal Weight' and 'Normal' categories are unified, since it has the same meaning. 
-- **Encoding Categorical(Ordinal & Nominal) Variables**: One-Hot Encoding for nominal features and Manually encoding the ordinal features using map function with custom dictionaries, and mean encoder for the target variable.
-- **Cross Validation**: Use cross validating technique to find the best machine learning model and deciding whether it is better to use scaled or unscaled data.
-- **Feature Selection** : Use correlation matrix and univariate model performance, turns out every features has atleast 60% accuracy level, every features will be used as predicting variables.
-- **Hyperparameter Tuning** : Use randomized search for hyperparameter tuning and gets a better ROC AUC score. 
+- **Handle Missing Values**: <p align="justify">Imputation techniques were applied to fill in missing values for target columns.
+</p>
+- **Unifying categories** : <p align="justify">in "BMI Category" column, 'Normal Weight' and 'Normal' categories are unified, since it has the same meaning. 
+</p>
+- **Encoding Categorical(Ordinal & Nominal) Variables**: <p align="justify">One-Hot Encoding for nominal features and Manually encoding the ordinal features using map function with custom dictionaries, and mean encoder for the target variable.
+</p>
+- **Cross Validation**: <p align="justify">Use cross validating technique to find the best machine learning model and deciding whether it is better to use scaled or unscaled data.
+</p>
+- **Feature Selection** : <p align="justify">Use correlation matrix and univariate model performance, turns out every features has atleast 60% accuracy level, every features will be used as predicting variables.
+</p>
+- **Hyperparameter Tuning** : <p align="justify">Use randomized search for hyperparameter tuning and gets a better ROC AUC score. 
+</p>
 
 ## Final Result 
 
@@ -63,10 +69,12 @@ Exploratory Data Analysis to find insights from the dataset, using various visua
 
 ### Business Recommendations
 - Integrate the model into healthcare systems for early detection and intervention.
-- Further optimize the model by including additional features, such as lifestyle data or environmental factors.
+- <p align="justify">Further optimize the model by including additional features, such as lifestyle data or environmental factors.
+</p>
 
 ### Skills utilized in this project
 - Data Preprocessing: Imputation, encoding, unifying variable and scaling.
 - Machine Learning: Building and evaluating Classification Models such as Extreme Gradient Boosting, RandomForest, CatBoost.
 - Hyperparameter Tuning: Using Randomized Search to search the best hyperparameter and apply it to the classifier.
 - Data Analysis: Correlation between variables and target, to find insights on how each variable affects the prediction of a classifier.
+
